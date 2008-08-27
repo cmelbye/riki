@@ -1,4 +1,5 @@
-RIKI - The Open Source Enterprise Wiki
+*RIKI* - The Open Source Enterprise Wiki
+
 _by Charles Melbye_
 
 h1. Installation
@@ -10,8 +11,8 @@ the Mongrel web server.
 
 h2. Dependencies
 
-- Rails (duh)
-- RedCloth (Textile formatting for pages)
+ * Rails (duh)
+ * RedCloth (Textile formatting for pages)
 
 h1. License
 
