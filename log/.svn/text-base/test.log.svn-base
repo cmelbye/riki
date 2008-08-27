@@ -1,0 +1,71 @@
+  [4;36;1mSQL (0.001846)[0m   [0;1mSELECT count(*) AS count_all FROM spaces [0m
+
+
+Processing SpacesController#create (for 0.0.0.0 at 2008-06-06 11:19:15) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"spaces", "space"=>{}}
+  [4;35;1mSpace Create (0.001820)[0m   [0mINSERT INTO spaces ("updated_at", "description", "key", "pages_count", "created_at") VALUES('2008-06-06 11:19:15', NULL, NULL, NULL, '2008-06-06 11:19:15')[0m
+Redirected to http://test.host/spaces/996332878
+Completed in 0.01980 (50 reqs/sec) | DB: 0.00367 (18%) | 302 Found [http://test.host/spaces?]
+  [4;36;1mSQL (0.001016)[0m   [0;1mSELECT count(*) AS count_all FROM spaces [0m
+  [4;35;1mSQL (0.001342)[0m   [0mSELECT count(*) AS count_all FROM spaces [0m
+  [4;36;1mSpace Load (0.001739)[0m   [0;1mSELECT * FROM spaces WHERE (spaces."id" = 953125641) [0m
+
+
+Processing SpacesController#destroy (for 0.0.0.0 at 2008-06-06 11:19:15) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"953125641", "controller"=>"spaces"}
+  [4;35;1mSpace Load (0.001395)[0m   [0mSELECT * FROM spaces WHERE (spaces."id" = 953125641) [0m
+  [4;36;1mSpace Destroy (0.001307)[0m   [0;1m DELETE FROM spaces
+ WHERE "id" = 953125641
+[0m
+Redirected to http://test.host/spaces
+Completed in 0.00737 (135 reqs/sec) | DB: 0.00680 (92%) | 302 Found [http://test.host/spaces/953125641]
+  [4;35;1mSQL (0.001133)[0m   [0mSELECT count(*) AS count_all FROM spaces [0m
+  [4;36;1mSpace Load (0.001685)[0m   [0;1mSELECT * FROM spaces WHERE (spaces."id" = 953125641) [0m
+
+
+Processing SpacesController#edit (for 0.0.0.0 at 2008-06-06 11:19:16) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"953125641", "controller"=>"spaces"}
+  [4;35;1mSpace Load (0.001362)[0m   [0mSELECT * FROM spaces WHERE (spaces."id" = 953125641) [0m
+Rendering template within layouts/spaces
+Rendering spaces/edit
+Completed in 0.01949 (51 reqs/sec) | Rendering: 0.01564 (80%) | DB: 0.00418 (21%) | 200 OK [http://test.host/spaces/953125641/edit]
+
+
+Processing SpacesController#index (for 0.0.0.0 at 2008-06-06 11:19:16) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"spaces"}
+  [4;36;1mSpace Load (0.001933)[0m   [0;1mSELECT * FROM spaces [0m
+Rendering template within layouts/spaces
+Rendering spaces/index
+Completed in 0.01422 (70 reqs/sec) | Rendering: 0.00918 (64%) | DB: 0.00193 (13%) | 200 OK [http://test.host/spaces]
+
+
+Processing SpacesController#new (for 0.0.0.0 at 2008-06-06 11:19:16) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"spaces"}
+Rendering template within layouts/spaces
+Rendering spaces/new
+Completed in 0.01755 (56 reqs/sec) | Rendering: 0.01616 (92%) | DB: 0.00000 (0%) | 200 OK [http://test.host/spaces/new]
+  [4;35;1mSpace Load (0.001630)[0m   [0mSELECT * FROM spaces WHERE (spaces."id" = 953125641) [0m
+
+
+Processing SpacesController#show (for 0.0.0.0 at 2008-06-06 11:19:16) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"953125641", "controller"=>"spaces"}
+  [4;36;1mSpace Load (0.001950)[0m   [0;1mSELECT * FROM spaces WHERE (spaces."id" = 953125641) [0m
+Rendering template within layouts/spaces
+Rendering spaces/show
+Completed in 0.01153 (86 reqs/sec) | Rendering: 0.00680 (58%) | DB: 0.00358 (31%) | 200 OK [http://test.host/spaces/953125641]
+  [4;35;1mSpace Load (0.001510)[0m   [0mSELECT * FROM spaces WHERE (spaces."id" = 953125641) [0m
+
+
+Processing SpacesController#update (for 0.0.0.0 at 2008-06-06 11:19:16) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"953125641", "controller"=>"spaces", "space"=>{}}
+  [4;36;1mSpace Load (0.001354)[0m   [0;1mSELECT * FROM spaces WHERE (spaces."id" = 953125641) [0m
+  [4;35;1mSpace Update (0.001420)[0m   [0mUPDATE spaces SET "created_at" = '2008-06-06 11:19:15', "description" = 'MyText', "pages_count" = 1, "key" = 'MyString', "updated_at" = '2008-06-06 11:19:16' WHERE "id" = 953125641[0m
+Redirected to http://test.host/spaces/953125641
+Completed in 0.00989 (101 reqs/sec) | DB: 0.00428 (43%) | 302 Found [http://test.host/spaces/953125641?]

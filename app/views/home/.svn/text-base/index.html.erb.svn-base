@@ -1,0 +1,40 @@
+<div id="toolbox">
+	<%= link_to "<img src=\"/images/icons/layout_edit.png\" alt=\"Dashboard Preferences\" />", admin_dashboard_path %>
+</div>
+<div class="page_header">
+	<h1>Dashboard</h1>
+</div>
+<div id="dashboard">
+<div id="column1">
+<% if @home.welcome %>
+<%= RedCloth.new(@home.welcome).to_html %>
+<% else %>
+<p>Welcome to the RIKI Dashboard! Here, you can get a central look of your RIKI installation, including latest updated pages, new users, etc. If you're wondering where to start, consider choosing the space for you project, if there is one, or create your <a href="/account/personalspace">Personal Space</a> and work on that. If you need support, feel free to visit the <%= link_to "RIKI website", "http://wiki.mudoo.net/display/RIKI" %>. If you are the system administrator, you may edit this text by visiting the <%= link_to "Dashboard Administration", "/admin/dashboard" %> page.</p>
+<% end %>
+
+<h2>Spaces</h2>
+<table>
+	<% for space in @spaces %>
+	<tr>
+		<td>
+			<div class="updatedpage"><b><%= link_to space.name, space_path(space) %></b> <span class="updatedinfo">(Created on <%= space.created_at %>)</span></div>
+			<%=h space.description %>
+		</td>
+	</tr>
+	<% end %>
+</table>
+</div>
+<div id="column2">
+<h2>Recent Changes</h2>
+<table>
+	<% for page in @revisions %>
+	<tr>
+		<td>
+			<div class="updatedpage"><b><%= link_to page.title, space_page_path(page.space, page.title) %></b> <span class="updatedinfo">(From the <%= link_to page.space.name, space_path(page.space) %> Space)</span></div>
+			<i>Updated by <%= page.user.login %> <%= time_ago_in_words(page.updated_at) %> ago<% if page.comment %> with comment: <%= page.comment %><% end %></i><br />
+		</td>
+	</tr>
+	<% end %>
+</table>
+</div>
+</div>

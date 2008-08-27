@@ -1,0 +1,9 @@
+<div class="page_header">
+	<h1>Revision History of <%= @page.title %></h1>
+</div>
+
+<ul>
+	<% for revision in @revisions %>
+	<li>Edited on <%= revision.updated_at %> by <%= revision.user.login %> [<%= link_to 'view', space_page_revision_path(@space, @page.title, revision)%>]</li>
+	<% end %>
+</ul>

@@ -1,0 +1,21 @@
+<div id="toolbox">
+	<%= link_to "<img src=\"/images/icons/world_add.png\" alt=\"New Space\" />", new_space_path %>
+	<%= link_to "<img src=\"/images/icons/house.png\" alt=\"Home\" />", root_path %>
+</div>
+<div class="page_header">
+	<h1>Listing Spaces</h1>
+</div>
+
+<table>
+  <tr>
+	<th>Name</th>
+    <th>Description</th>
+  </tr>
+
+<% for space in @spaces %>
+  <tr>
+	<td><%= link_to space.name, space_path(space) %></td>
+    <td><%= textilize(space.description) %></td>
+  </tr>
+<% end %>
+</table>

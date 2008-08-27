@@ -1,0 +1,28 @@
+<div class="page_header">
+	<h1>Signup</h1>
+</div>
+
+<%= error_messages_for :user %>
+
+<% form_for :user do |f| -%>
+<p><b><label for="login">Login</label></b>
+<%= f.text_field :login %></p>
+<span class="hint">This is your username. It must be between 3 and 40 characters.</span>
+
+<p><b><label for="realname">Real Name</label></b>
+<%= f.text_field :realname %></p>
+
+<p><b><label for="email">Email</label></b>
+<%= f.text_field :email %></p>
+<span class="hint">Please enter your email address. We'll never sell it to spammers, promise!</span>
+
+<p><b><label for="password">Password</label></b>
+<%= f.password_field :password %></p>
+<span class="hint">Enter your password here. It needs to be between 4 and 40 characters.</span>
+
+<p><b><label for="password_confirmation">Confirm Password</label></b>
+<%= f.password_field :password_confirmation %></p>
+<span class="hint">Type your password again, just to be sure.</span>
+
+<p><%= submit_tag 'Sign up' %> or <%= link_to "Login", "/account/login" %></p>
+<% end -%>

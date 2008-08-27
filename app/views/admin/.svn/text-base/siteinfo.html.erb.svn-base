@@ -1,0 +1,23 @@
+<div class="page_header">
+	<h1>Administration Console</h1>
+</div>
+
+<h1>Site Information</h1>
+
+<% form_for :home do |f| -%>
+	<p>
+		<label for="site_title">
+			Site Title
+		</label>
+		<%= f.text_field :site_title %>
+	</p>
+	<p>
+		<label for="site_slogan">
+			Site Slogan
+		</label>
+		<%= f.text_field :site_slogan %>
+	</p>
+	<p>
+		<%= submit_tag 'Save' %>
+	</p>
+<% end %>

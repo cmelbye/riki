@@ -1,0 +1,43 @@
+<div id="toolbox">
+	<%= link_to "<img src=\"/images/icons/page_add.png\" alt=\"New Page\" />", new_space_page_path(@space) %>
+	<%= link_to "<img src=\"/images/icons/world_edit.png\" alt=\"Edit Page\" />", edit_space_path(@space) %>
+	<%= link_to "<img src=\"/images/icons/world_delete.png\" alt=\"Delete Space\" />", @space, :confirm => 'Are you sure? This can\'t be undone.', :method => :delete %>
+	<%= link_to "<img src=\"/images/icons/world_go.png\" alt=\"Space list\" />", spaces_path %>
+</div>
+<div class="page_header">
+	<h1><%= @space.name %> Space</h1>
+</div>
+
+<!-- Space Information -->
+<h2>Information</h2>
+<b>Pages:</b> <%= pluralize(@space.pages_count, "page") %><br />
+<b>Created:</b> <%= @space.created_at %>
+<%= textilize(@space.description) %>
+
+<!-- Recently Updated Pages -->
+<h2>Recent Changes</h2>
+<table>
+	<% for page in @updated %>
+	<tr>
+		<td><b><%= link_to page.title, space_page_path(page.space, page.title) %></b><br />
+		<i>Updated by <%= page.user.login %> <%= time_ago_in_words(page.updated_at) %> ago<% if page.comment %> with comment: <%= page.comment %><% end %></i></td>
+	</tr>
+	<% end %>
+</table>
+
+<!-- Full page list -->
+<h2>Page Index</h2>
+<table>
+	<tr>
+		<th>Page Name</th>
+		<th>Last Updated</th>
+		<th>Updated By</th>
+	</tr>
+	<% for page in @space.pages %>
+	<tr>
+		<td><%= link_to page.title, space_page_path(page.space, page) %></td>
+		<td><%= time_ago_in_words(page.updated_at) %> ago</td>
+		<td><%= page.user.login %></td>
+	</tr>
+	<% end %>
+</table>

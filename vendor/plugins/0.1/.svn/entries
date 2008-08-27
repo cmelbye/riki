@@ -1,0 +1,76 @@
+8
+
+dir
+15
+svn://serv1.mudoo.net/riki/trunk/vendor/plugins/0.1
+svn://serv1.mudoo.net/riki
+
+
+
+2008-06-14T17:28:44.137789Z
+13
+charlie
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+30df73b5-cbf5-457e-b48c-e0e22789e809
+
+test
+dir
+
+Rakefile
+file
+
+
+
+
+2008-08-27T02:55:30.000000Z
+36f5bdc085d56fba4ccdc59b6599a6e4
+2008-06-14T17:28:44.137789Z
+13
+charlie
+
+init.rb
+file
+
+
+
+
+2008-08-27T02:55:30.000000Z
+8abf705f9911609d01dd618cd680ac40
+2008-06-14T17:28:44.137789Z
+13
+charlie
+
+lib
+dir
+
+generators
+dir
+
+mocks
+dir
+
+README
+file
+
+
+
+
+2008-08-27T02:55:30.000000Z
+2e093d7fa0b7d69ffc031790152d17c2
+2008-06-14T17:28:44.137789Z
+13
+charlie
+

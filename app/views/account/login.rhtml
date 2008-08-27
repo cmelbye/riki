@@ -1,0 +1,18 @@
+<div class="page_header">
+	<h1>Log-in</h1>
+</div>
+
+<% form_tag do -%>
+<p><b><label for="login">Login</label></b><br/>
+<%= text_field_tag 'login' %></p>
+
+<p><b><label for="password">Password</label></b><br/>
+<%= password_field_tag 'password' %></p>
+
+<!-- Uncomment this if you want this functionality
+<p><label for="remember_me">Remember me:</label>
+<%= check_box_tag 'remember_me' %></p>
+-->
+
+<p><%= submit_tag 'Log in' %> or <%= link_to "Register", "/account/signup" %></p>
+<% end -%>

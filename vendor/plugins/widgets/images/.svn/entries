@@ -1,0 +1,54 @@
+8
+
+dir
+15
+svn://serv1.mudoo.net/riki/trunk/vendor/plugins/widgets/images
+svn://serv1.mudoo.net/riki
+
+
+
+2008-06-11T16:34:26.496790Z
+5
+charlie
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+30df73b5-cbf5-457e-b48c-e0e22789e809
+
+tooltip_image.gif
+file
+
+
+
+
+2008-06-12T22:42:50.000000Z
+af851d2d609a59de65f27a99d87ba272
+2008-06-11T16:34:26.496790Z
+5
+charlie
+has-props
+
+tooltip_arrow.gif
+file
+
+
+
+
+2008-06-12T22:42:50.000000Z
+810c64751bf8dcdeb966e8d431b5b83a
+2008-06-11T16:34:26.496790Z
+5
+charlie
+has-props
+

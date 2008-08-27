@@ -1,0 +1,8 @@
+<div class="page_header">
+	<h1>Viewing Old Revision of <%= @page.title %></h1>
+</div>
+
+<h1><%= @revision.title %></h1>
+<p><span class="updatedinfo">Edited <%= time_ago_in_words(@revision.updated_at) %> ago by <%= @revision.user.login %></span>. <a href="#" id="commentlink" onclick="togglecomment('pagecomment');">Show Comment</a></p>
+<div id="pagecomment" style="display: none;"><div><%= @revision.comment %></div></div>
+<%= RedCloth.new(@revision.text).to_html %>

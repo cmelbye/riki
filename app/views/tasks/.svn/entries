@@ -1,0 +1,64 @@
+8
+
+dir
+15
+svn://serv1.mudoo.net/riki/trunk/app/views/tasks
+svn://serv1.mudoo.net/riki
+
+
+
+2008-08-27T02:54:45.445189Z
+15
+charlie
+
+
+svn:special svn:externals svn:needs-lock
+
+edit.html.erb
+file
+
+
+
+
+2008-08-26T02:18:53.000000Z
+ec0c7bdf306763b3d95f9b09322feeb6
+2008-08-27T02:54:45.445189Z
+15
+charlie
+
+index.html.erb
+file
+
+
+
+
+2008-08-26T02:18:52.000000Z
+22f32ecfd03975f733c53ffef01c3e26
+2008-08-27T02:54:45.445189Z
+15
+charlie
+
+new.html.erb
+file
+
+
+
+
+2008-08-26T02:18:53.000000Z
+2a8e6fcd0839365669f1dae7f7242dbd
+2008-08-27T02:54:45.445189Z
+15
+charlie
+
+show.html.erb
+file
+
+
+
+
+2008-08-26T02:18:53.000000Z
+11a7588ee435c029be4b1a403be3994d
+2008-08-27T02:54:45.445189Z
+15
+charlie
+

@@ -1,0 +1,64 @@
+<%
+home = Home.find(1)
+
+if home.site_title && !home.site_title.empty?
+	header_title = home.site_title
+else
+	header_title = "RIKI"
+end
+
+if home.site_slogan && !home.site_slogan.empty?
+	header_slogan = home.site_slogan
+else
+	header_slogan = "The Open Source Wiki"
+end
+
+if !@site_title
+	title = "RIKI"
+else
+	title = @site_title.to_s + " - RIKI"
+end
+
+%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title><%= @site_title %> - <%= header_title %></title>
+		<%= stylesheet_link_tag "application" %>
+		<%= javascript_include_tag :all %>
+	</head>
+	<body>
+		<div id="header">
+			<span id="header-info">
+				<% if logged_in? %>
+					<%=h current_user.realname %> <span class="pipe">|</span> 
+					<%= link_to "Log-out", "/account/logout" %>
+				<% else %>
+					<%= link_to "Log-in", "/account/login" %> <span class="pipe">|</span> 
+					<%= link_to "Signup", "/account/signup" %>
+				<% end %>
+			</span>
+			<span id="header-title" onclick="rd('<%= root_path %>');">
+				<%= header_title %>
+				<span><%= header_slogan %></span>
+			</span>
+		</div>
+		<%= tabnav :main %>
+		<% if flash[:notice] %>
+			<div id="Flash" class="flash_notice"><%= flash[:notice] %></div>
+		<% end %>
+		<% if flash[:error] %>
+			<div id="Flash" class="flash_error"><%= flash[:error] %></div>
+		<% end %>	
+		<div id="content">
+			<%= @header_title %>
+			<%= @header_slogan %>
+			<%= yield %>
+		</div>
+		<div id="footer">
+			Powered by <a href="http://mudoo.net/">Mudoo</a> RIKI, the Open Source <a href="http://mudoo.net/riki">Enterprise Wiki</a>.
+		</div>
+	</body>
+</html>

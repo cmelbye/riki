@@ -1,0 +1,19 @@
+<div id="toolbox">
+	<%= link_to "<img src=\"/images/icons/page_edit.png\" alt=\"Edit Page\" />", edit_space_page_path(@page.space, @page) if @page %>
+	<%= link_to "<img src=\"/images/icons/page_delete.png\" alt=\"Delete Page\" />", space_page_path(@page.space, @page), :confirm => 'Are you sure? This can\'t be undone.', :method => :delete if @page %>
+	<%= link_to "<img src=\"/images/icons/page_add.png\" alt=\"New Page\" />", new_space_page_path(@page.space) %>
+	<%= link_to "<img src=\"/images/icons/page_copy.png\" alt=\"Revision History\">", space_page_revisions_path(@page.space, @page) %>
+	<%= link_to "<img src=\"/images/icons/world.png\" alt=\"Browse\" />", space_path(@page.space) %>
+</div>
+<div class="page_header">
+	<h1><%= @page.space.name %> Space</h1>
+</div>
+<% if @page %>
+<h1><%= @page.title %></h1>
+<p><span class="updatedinfo">Last updated <%= time_ago_in_words(@page.updated_at) %> ago by <%= @page.user.login %></span>. <a href="#" id="commentlink" onclick="togglecomment('pagecomment');">Show Comment</a></p>
+<div id="pagecomment" style="display: none;"><div><%= @page.comment %></div></div>
+<%= RedCloth.new(@page.text).to_html %>
+<% else %>
+<h1>This Page does not exist</h1>
+<p>Create it!</p>
+<% end %>

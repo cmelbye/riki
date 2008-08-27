@@ -1,0 +1,13 @@
+<div class="page_header">
+	<h1>Administration Console</h1>
+</div>
+
+<h1>Dashboard Configuration</h1>
+<%= error_messages_for :home %>
+<% form_for :home do |f| -%>
+
+<p><b><label for="welcome">Welcome Message</label></b><br />
+	<%= f.text_area :welcome %>
+
+<p><%= submit_tag 'Update' %></p>
+<% end -%>

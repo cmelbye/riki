@@ -1,0 +1,31 @@
+8
+
+dir
+15
+svn://serv1.mudoo.net/riki/trunk/vendor/plugins/restful_authentication/generators
+svn://serv1.mudoo.net/riki
+
+
+
+2008-06-09T20:01:23.329580Z
+2
+charlie
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+30df73b5-cbf5-457e-b48c-e0e22789e809
+
+authenticated
+dir
+

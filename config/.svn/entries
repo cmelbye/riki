@@ -1,0 +1,82 @@
+8
+
+dir
+15
+svn://serv1.mudoo.net/riki/trunk/config
+svn://serv1.mudoo.net/riki
+
+
+
+2008-08-27T02:54:45.445189Z
+15
+charlie
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+30df73b5-cbf5-457e-b48c-e0e22789e809
+
+routes.rb
+file
+
+
+
+
+2008-08-26T02:18:53.000000Z
+2f2a110c3991e58216980b210f2cfb1a
+2008-08-27T02:54:45.445189Z
+15
+charlie
+
+database.yml
+file
+
+
+
+
+2008-06-12T22:42:47.000000Z
+bbef680f98eb4d3e714013b205c6ce3a
+2008-06-09T20:01:23.329580Z
+2
+charlie
+
+boot.rb
+file
+
+
+
+
+2008-06-12T22:42:47.000000Z
+62fe46fd028f9df081e4ec9eb85968c0
+2008-06-09T20:01:23.329580Z
+2
+charlie
+
+initializers
+dir
+
+environment.rb
+file
+
+
+
+
+2008-06-13T02:10:02.000000Z
+406cd9c11ec6f76e1058bcc2946fb885
+2008-06-13T02:10:37.070788Z
+8
+charlie
+
+environments
+dir
+

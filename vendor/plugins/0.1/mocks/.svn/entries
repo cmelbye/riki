@@ -1,0 +1,40 @@
+8
+
+dir
+15
+svn://serv1.mudoo.net/riki/trunk/vendor/plugins/0.1/mocks
+svn://serv1.mudoo.net/riki
+
+
+
+2008-06-14T17:28:44.137789Z
+13
+charlie
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+30df73b5-cbf5-457e-b48c-e0e22789e809
+
+sample_tabnav.rb
+file
+
+
+
+
+2008-08-27T02:55:30.000000Z
+5d4da0e41352937278c54f1688f98b8b
+2008-06-14T17:28:44.137789Z
+13
+charlie
+

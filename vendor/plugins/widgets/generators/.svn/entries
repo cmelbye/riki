@@ -1,0 +1,34 @@
+8
+
+dir
+15
+svn://serv1.mudoo.net/riki/trunk/vendor/plugins/widgets/generators
+svn://serv1.mudoo.net/riki
+
+
+
+2008-06-11T16:34:26.496790Z
+5
+charlie
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+30df73b5-cbf5-457e-b48c-e0e22789e809
+
+navigation
+dir
+
+tabnav
+dir
+

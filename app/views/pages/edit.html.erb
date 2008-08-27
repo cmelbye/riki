@@ -1,0 +1,25 @@
+<div class="page_header">
+	<h1>Editing <%= @page.title %></h1>
+</div>
+
+<%= error_messages_for :page %>
+
+<% form_for [@page.space, @page] do |f| %>
+  <p>
+    <b>Title</b><br />
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <%= f.text_area :text %>
+  </p>
+
+  <p>
+    <b>Comment</b><br />
+    <%= f.text_field :comment, :value => "" %>
+  </p>
+
+  <p>
+    <%= f.submit "Update" %> or <%= link_to 'Cancel', space_page_path(@page.space, @page) %>
+  </p>
+<% end %>

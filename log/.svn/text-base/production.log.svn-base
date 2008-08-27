@@ -1,0 +1,298 @@
+
+
+Processing AccountController#signup (for 12.205.152.232 at 2008-06-09 17:32:30) [POST]
+  Session ID: BAh7CDoMY3NyZl9pZCIlZTQ2NDcxN2E4MjIzZjU5YmYwYTg0MTk5NzAwMDYz%0AZWU6DnJldHVybl90byIQL3NwYWNlcy9uZXciCmZsYXNoSUM6J0FjdGlvbkNv%0AbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA%3D--cb5d8e4c7a376ef1d2b8b2d932f1dd9c2e26c6d6
+  Parameters: {"user"=>{"password_confirmation"=>"kimstkd", "login"=>"charlie", "realname"=>"Charles Melbye", "password"=>"kimstkd", "email"=>"charlie@mudoo.net"}, "commit"=>"Sign up", "authenticity_token"=>"d57dd900cba4946ecfcdca8cb7d3931df44e824d", "action"=>"signup", "controller"=>"account"}
+Redirected to http://wiki.mudoo.net/spaces/new
+Completed in 0.06009 (16 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://wiki.mudoo.net/account/signup]
+
+
+Processing SpacesController#new (for 12.205.152.232 at 2008-06-09 17:32:32) [GET]
+  Session ID: BAh7CToMY3NyZl9pZCIlZTQ2NDcxN2E4MjIzZjU5YmYwYTg0MTk5NzAwMDYz%0AZWU6DnJldHVybl90bzAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZs%0AYXNoOjpGbGFzaEhhc2h7BjoLbm90aWNlIhtUaGFua3MgZm9yIHNpZ25pbmcg%0AdXAhBjoKQHVzZWR7BjsIVDoJdXNlcmkG--fe7cea925ff11a0eabe42f23631eeeca8825cf64
+  Parameters: {"action"=>"new", "controller"=>"spaces"}
+Rendering template within layouts/application
+Rendering spaces/new
+Completed in 0.03162 (31 reqs/sec) | Rendering: 0.01488 (47%) | DB: 0.00000 (0%) | 200 OK [http://wiki.mudoo.net/spaces/new]
+
+
+Processing HomeController#index (for 12.205.152.232 at 2008-06-09 18:33:36) [GET]
+  Session ID: BAh7CToMY3NyZl9pZCIlZTQ2NDcxN2E4MjIzZjU5YmYwYTg0MTk5NzAwMDYz%0AZWU6DnJldHVybl90bzAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZs%0AYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA6CXVzZXJpBg%3D%3D--ea06f96463deb31cac4e0bf2d095d43419757669
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 0.03729 (26 reqs/sec) | Rendering: 0.02419 (64%) | DB: 0.00000 (0%) | 200 OK [http://wiki.mudoo.net/]
+
+
+Processing SpacesController#index (for 12.205.152.232 at 2008-06-09 18:33:48) [GET]
+  Session ID: BAh7CToMY3NyZl9pZCIlZTQ2NDcxN2E4MjIzZjU5YmYwYTg0MTk5NzAwMDYz%0AZWU6DnJldHVybl90bzAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZs%0AYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA6CXVzZXJpBg%3D%3D--ea06f96463deb31cac4e0bf2d095d43419757669
+  Parameters: {"action"=>"index", "controller"=>"spaces"}
+Rendering template within layouts/application
+Rendering spaces/index
+Completed in 0.02835 (35 reqs/sec) | Rendering: 0.02115 (74%) | DB: 0.00000 (0%) | 200 OK [http://wiki.mudoo.net/spaces]
+
+
+Processing SpacesController#new (for 12.205.152.232 at 2008-06-09 18:33:50) [GET]
+  Session ID: BAh7CToMY3NyZl9pZCIlZTQ2NDcxN2E4MjIzZjU5YmYwYTg0MTk5NzAwMDYz%0AZWU6DnJldHVybl90bzAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZs%0AYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA6CXVzZXJpBg%3D%3D--ea06f96463deb31cac4e0bf2d095d43419757669
+  Parameters: {"action"=>"new", "controller"=>"spaces"}
+Rendering template within layouts/application
+Rendering spaces/new
+Completed in 0.03244 (30 reqs/sec) | Rendering: 0.01518 (46%) | DB: 0.00000 (0%) | 200 OK [http://wiki.mudoo.net/spaces/new]
+
+
+Processing HomeController#index (for 71.155.235.87 at 2008-06-09 18:34:02) [GET]
+  Session ID: f6d0b3ba91fb42550056b323a9388576
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 0.02748 (36 reqs/sec) | Rendering: 0.01271 (46%) | DB: 0.00000 (0%) | 200 OK [http://wiki.mudoo.net/]
+
+
+Processing HomeController#index (for 208.110.35.92 at 2008-06-09 18:34:13) [GET]
+  Session ID: cfa16948863a1603ed35be6b126a793a
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 0.02516 (39 reqs/sec) | Rendering: 0.01206 (47%) | DB: 0.00000 (0%) | 200 OK [http://wiki.mudoo.net/]
+
+
+Processing AdminController#dashboard (for 208.110.35.92 at 2008-06-09 18:34:32) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--f4c19e35c987865bf00566508143016358b6a033
+  Parameters: {"action"=>"dashboard", "controller"=>"admin"}
+Rendering template within layouts/application
+Rendering admin/dashboard
+Completed in 0.01864 (53 reqs/sec) | Rendering: 0.01189 (63%) | DB: 0.00000 (0%) | 200 OK [http://wiki.mudoo.net/admin/dashboard]
+
+
+Processing SpacesController#create (for 12.205.152.232 at 2008-06-09 18:34:32) [POST]
+  Session ID: BAh7CToMY3NyZl9pZCIlZTQ2NDcxN2E4MjIzZjU5YmYwYTg0MTk5NzAwMDYz%0AZWU6DnJldHVybl90bzAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZs%0AYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA6CXVzZXJpBg%3D%3D--ea06f96463deb31cac4e0bf2d095d43419757669
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"d57dd900cba4946ecfcdca8cb7d3931df44e824d", "action"=>"create", "space"=>{"name"=>"FriendScope", "description"=>"A Next-Generation Social Networking site currently written with CakePHP, but in the process of being rewritten with Ruby on Rails.", "key"=>"fs"}, "controller"=>"spaces"}
+Redirected to http://wiki.mudoo.net/spaces/fs
+Completed in 0.08524 (11 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://wiki.mudoo.net/spaces]
+
+
+Processing SpacesController#show (for 12.205.152.232 at 2008-06-09 18:34:33) [GET]
+  Session ID: BAh7CToMY3NyZl9pZCIlZTQ2NDcxN2E4MjIzZjU5YmYwYTg0MTk5NzAwMDYz%0AZWU6DnJldHVybl90bzAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZs%0AYXNoOjpGbGFzaEhhc2h7BjoLbm90aWNlIiRTcGFjZSB3YXMgc3VjY2Vzc2Z1%0AbGx5IGNyZWF0ZWQuBjoKQHVzZWR7BjsIVDoJdXNlcmkG--f20d43c03b8a1ca94847eb1732844562c231712c
+  Parameters: {"action"=>"show", "id"=>"fs", "controller"=>"spaces"}
+Rendering template within layouts/application
+Rendering spaces/show
+
+
+ActionView::TemplateError (undefined method `textilize' for #<ActionView::Base:0xb78610ac>) on line #15 of spaces/show.html.erb:
+12: <h2>Information</h2>
+13: <b>Pages:</b> <%= pluralize(@space.pages_count, "page") %><br />
+14: <b>Created:</b> <%= @space.created_at %>
+15: <%= textilize(@space.description) %>
+16: 
+17: <!-- Recently Updated Pages -->
+18: <h2>Just Updated</h2>
+
+    app/views/spaces/show.html.erb:15:in `_run_erb_47app47views47spaces47show46html46erb'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:637:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:637:in `compile_and_render_template'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:365:in `render_template'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:316:in `render_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1100:in `render_for_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:858:in `render_with_no_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:872:in `render_with_no_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/layout.rb:262:in `render_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:131:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:131:in `custom'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:156:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:156:in `respond'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:150:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:150:in `respond'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/spaces_controller.rb:23:in `show'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    public/dispatch.cgi:10
+
+Rendering /home/httpd/wiki/public/500.html (500 Internal Server Error)
+
+
+Processing HomeController#index (for 208.110.35.92 at 2008-06-09 18:34:37) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMThhODkxMzYwNDYxMmY5YzZkNGU3YjRmNzk1ZGFi%0ANjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--85d749dd02a24d3fa4851f258260171148c14716
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 0.02774 (36 reqs/sec) | Rendering: 0.01434 (51%) | DB: 0.00000 (0%) | 200 OK [http://wiki.mudoo.net/]
+
+
+Processing AdminController#dashboard (for 208.110.35.92 at 2008-06-09 18:34:51) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMThhODkxMzYwNDYxMmY5YzZkNGU3YjRmNzk1ZGFi%0ANjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--85d749dd02a24d3fa4851f258260171148c14716
+  Parameters: {"action"=>"dashboard", "controller"=>"admin"}
+Rendering template within layouts/application
+Rendering admin/dashboard
+Completed in 0.01828 (54 reqs/sec) | Rendering: 0.01164 (63%) | DB: 0.00000 (0%) | 200 OK [http://wiki.mudoo.net/admin/dashboard]
+
+
+Processing SpacesController#index (for 208.110.35.92 at 2008-06-09 18:34:58) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMThhODkxMzYwNDYxMmY5YzZkNGU3YjRmNzk1ZGFi%0ANjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--85d749dd02a24d3fa4851f258260171148c14716
+  Parameters: {"action"=>"index", "controller"=>"spaces"}
+Rendering template within layouts/application
+Rendering spaces/index
+
+
+ActionView::TemplateError (undefined method `textilize' for #<ActionView::Base:0xb78ccd20>) on line #18 of spaces/index.html.erb:
+15: <% for space in @spaces %>
+16:   <tr>
+17: 	<td><%= link_to space.name, space_path(space) %></td>
+18:     <td><%= textilize(space.description) %></td>
+19:   </tr>
+20: <% end %>
+21: </table>
+
+    app/views/spaces/index.html.erb:18:in `_run_erb_47app47views47spaces47index46html46erb'
+    app/views/spaces/index.html.erb:15:in `each'
+    app/views/spaces/index.html.erb:15:in `_run_erb_47app47views47spaces47index46html46erb'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:637:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:637:in `compile_and_render_template'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:365:in `render_template'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:316:in `render_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1100:in `render_for_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:858:in `render_with_no_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:872:in `render_with_no_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/layout.rb:262:in `render_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:131:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:131:in `custom'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:156:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:156:in `respond'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:150:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:150:in `respond'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/spaces_controller.rb:10:in `index'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    public/dispatch.cgi:10
+
+Rendering /home/httpd/wiki/public/500.html (500 Internal Server Error)
+
+
+Processing AccountController#list (for 208.110.35.92 at 2008-06-09 18:35:02) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMThhODkxMzYwNDYxMmY5YzZkNGU3YjRmNzk1ZGFi%0ANjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--85d749dd02a24d3fa4851f258260171148c14716
+  Parameters: {"action"=>"list", "controller"=>"account"}
+Redirected to http://wiki.mudoo.net/account/login
+Filter chain halted as [#<ActionController::Filters::ClassMethods::SymbolFilter:0xb781a364 @filter=:login_required>] rendered_or_redirected.
+Completed in 0.00210 (475 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://wiki.mudoo.net/account/list]
+
+
+Processing AccountController#login (for 208.110.35.92 at 2008-06-09 18:35:03) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlMThhODkxMzYwNDYxMmY5YzZkNGU3YjRmNzk1ZGFi%0ANjk6DnJldHVybl90byISL2FjY291bnQvbGlzdCIKZmxhc2hJQzonQWN0aW9u%0AQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgplcnJvciImWW91IG11%0Ac3QgYmUgbG9nZ2VkIGluIHRvIGRvIHRoYXQhBjoKQHVzZWR7BjsIVA%3D%3D--ef2b17d416a96925ee0a56d4e9dbaddf324fcb44
+  Parameters: {"action"=>"login", "controller"=>"account"}
+Rendering template within layouts/application
+Rendering account/login
+Completed in 0.01441 (69 reqs/sec) | Rendering: 0.01126 (78%) | DB: 0.00000 (0%) | 200 OK [http://wiki.mudoo.net/account/login]
+
+
+Processing HomeController#index (for 208.110.35.92 at 2008-06-09 18:35:11) [GET]
+  Session ID: BAh7CDoMY3NyZl9pZCIlMThhODkxMzYwNDYxMmY5YzZkNGU3YjRmNzk1ZGFi%0ANjk6DnJldHVybl90byISL2FjY291bnQvbGlzdCIKZmxhc2hJQzonQWN0aW9u%0AQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--331d8741a228b13d6f809baf0e34360e269436c9
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 0.02782 (35 reqs/sec) | Rendering: 0.01446 (51%) | DB: 0.00000 (0%) | 200 OK [http://wiki.mudoo.net/]
+
+
+Processing SpacesController#show (for 12.205.152.232 at 2008-06-09 18:40:48) [GET]
+  Session ID: BAh7CToMY3NyZl9pZCIlZTQ2NDcxN2E4MjIzZjU5YmYwYTg0MTk5NzAwMDYz%0AZWU6DnJldHVybl90bzAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZs%0AYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA6CXVzZXJpBg%3D%3D--ea06f96463deb31cac4e0bf2d095d43419757669
+  Parameters: {"action"=>"show", "id"=>"fs", "controller"=>"spaces"}
+Rendering template within layouts/application
+Rendering spaces/show
+
+
+ActionView::TemplateError (undefined method `textilize' for #<ActionView::Base:0xb7841e8c>) on line #15 of spaces/show.html.erb:
+12: <h2>Information</h2>
+13: <b>Pages:</b> <%= pluralize(@space.pages_count, "page") %><br />
+14: <b>Created:</b> <%= @space.created_at %>
+15: <%= textilize(@space.description) %>
+16: 
+17: <!-- Recently Updated Pages -->
+18: <h2>Just Updated</h2>
+
+    app/views/spaces/show.html.erb:15:in `_run_erb_47app47views47spaces47show46html46erb'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:637:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:637:in `compile_and_render_template'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:365:in `render_template'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:316:in `render_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1100:in `render_for_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:858:in `render_with_no_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:872:in `render_with_no_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/layout.rb:262:in `render_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:131:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:131:in `custom'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:156:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:156:in `respond'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:150:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:150:in `respond'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/spaces_controller.rb:23:in `show'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    public/dispatch.cgi:10
+
+Rendering /home/httpd/wiki/public/500.html (500 Internal Server Error)

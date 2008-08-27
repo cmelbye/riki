@@ -1,0 +1,55 @@
+8
+
+dir
+15
+svn://serv1.mudoo.net/riki/trunk/vendor/plugins/widgets/generators/tabnav
+svn://serv1.mudoo.net/riki
+
+
+
+2008-06-11T16:34:26.496790Z
+5
+charlie
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+30df73b5-cbf5-457e-b48c-e0e22789e809
+
+tabnav_generator.rb
+file
+
+
+
+
+2008-06-12T22:42:51.000000Z
+e3f8cd065b22c6b702edf71d30ac0cb3
+2008-06-11T16:34:26.496790Z
+5
+charlie
+
+USAGE
+file
+
+
+
+
+2008-06-12T22:42:51.000000Z
+45d93c8b73f9cfae8346bfa4916c7415
+2008-06-11T16:34:26.496790Z
+5
+charlie
+
+templates
+dir
+

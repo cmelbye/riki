@@ -1,0 +1,30 @@
+<div class="page_header">
+	<h1>New Space</h1>
+</div>
+
+<%= error_messages_for :space %>
+
+<% form_for(@space) do |f| %>
+
+	<p>
+		<b>Friendly Name</b><br />
+		<%= f.text_field :name %>
+	</p>
+
+	<p>
+		<b>Key</b><br />
+		<%= f.text_field :key %>
+	</p>
+
+	<p>
+		<b>Description</b><br />
+		<%= f.text_area :description %>
+	</p>
+
+	<p>
+		<%= f.submit "Create" %>
+	</p>
+	
+<% end %>
+
+<%= link_to 'Back', spaces_path %>

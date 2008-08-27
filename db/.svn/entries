@@ -1,0 +1,69 @@
+8
+
+dir
+15
+svn://serv1.mudoo.net/riki/trunk/db
+svn://serv1.mudoo.net/riki
+
+
+
+2008-08-27T02:54:45.445189Z
+15
+charlie
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+30df73b5-cbf5-457e-b48c-e0e22789e809
+
+schema.rb
+file
+
+
+
+
+2008-08-26T02:19:11.000000Z
+ba04f74adf080446d258f69a05d808f2
+2008-08-27T02:54:45.445189Z
+15
+charlie
+
+development.sqlite3
+file
+
+
+
+
+2008-08-26T02:19:10.000000Z
+044ed08e6b4d89a1f89fe3e6f3743d64
+2008-08-27T02:54:45.445189Z
+15
+charlie
+has-props
+
+migrate
+dir
+
+production.sqlite3
+file
+
+
+
+
+2008-06-12T22:42:48.000000Z
+df265eca4bf61512289e3a83275aee90
+2008-06-10T17:16:58.174476Z
+3
+charlie
+has-props
+
