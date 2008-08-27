@@ -1,19 +1,18 @@
 RIKI - The Open Source Enterprise Wiki
-by Charles Melbye
+_by Charles Melbye_
 
-Installation
-------------
+h1. Installation
+
 This document is not complete yet, but installation should be similar to other
 Ruby on Rails applications. First install Ruby on Rails, then this application's
 dependencies, listed below. To run the application, use ./script/server to use
 the Mongrel web server.
 
-Dependencies
-------------
+h2. Dependencies
+
 - Rails (duh)
 - RedCloth (Textile formatting for pages)
 
-License
--------
-I haven't officially licensed this yet, but it is going to be under the
-Lesser General Public License (LGPL) in the near future.
+h1. License
+
+I haven't officially licensed this yet, but it is going to be under the Lesser General Public License (LGPL) in the near future.
