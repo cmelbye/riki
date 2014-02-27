@@ -1,6 +1,4 @@
-*RIKI* - The Open Source Enterprise Wiki
-
-_by Charles Melbye_
+Rails Wiki
 
 h1. Installation
 
